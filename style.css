@@ -20,7 +20,6 @@ body{
 .section-heading{
     font-size: 25px;
     font-weight: 800;
-    padding: 0 20px;
 }
 .details{
     color: hsl(224, 23%, 55%);
@@ -75,8 +74,8 @@ body{
     font-size: 15px;
     font-weight: 700;
     text-decoration: none;
-    width: 280px;
     display: block;
+    width: 280px;
 }
 .payment-button:hover{
     background-color: rgb(108, 109, 201);
@@ -92,4 +91,55 @@ body{
 }
 .cancel-order a:hover{
     color: hsl(223, 47%, 23%);
+}
+@media only screen and (max-width: 1200px){
+    .order{
+        width: 30%;
+    }
+    .details{
+        padding: 0 40px;
+    }
+    .annual-detail{
+        margin: 15px 20px;
+        padding: 0 15px;
+    }
+    .payment-button{
+        width: 240px;
+    }
+}
+@media only screen and (max-width: 770px){
+    .order{
+        width: 50%;
+    }
+    .details{
+        padding: 0 45px;
+    }
+    .annual-detail{
+        margin: 15px 35px;
+        padding: 0 15px;
+    }
+}
+@media only screen and (max-width: 450px){
+    .order{
+        width: 85%;
+    }
+    .details{
+        padding: 0 40px;
+    }
+    .annual-detail{
+        margin: 15px 20px;
+        padding: 0 15px;
+    }
+}
+@media only screen and (max-width: 375px){
+    .order{
+        width: 90%;
+    }
+    .details{
+        padding: 0 40px;
+    }
+    .annual-detail{
+        margin: 15px 20px;
+        padding: 0 15px;
+    }
 }
