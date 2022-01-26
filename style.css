@@ -92,6 +92,7 @@ body{
 .cancel-order a:hover{
     color: hsl(223, 47%, 23%);
 }
+/* Responsive for device max-width 1200px */
 @media only screen and (max-width: 1200px){
     .order{
         width: 30%;
@@ -107,6 +108,7 @@ body{
         width: 240px;
     }
 }
+/* Responsive for device max-width 770px */
 @media only screen and (max-width: 770px){
     .order{
         width: 50%;
@@ -119,6 +121,7 @@ body{
         padding: 0 15px;
     }
 }
+/* Responsive for device max-width 450px */
 @media only screen and (max-width: 450px){
     .order{
         width: 85%;
@@ -131,6 +134,7 @@ body{
         padding: 0 15px;
     }
 }
+/* Responsive for device max-width 375px */
 @media only screen and (max-width: 375px){
     .order{
         width: 90%;
