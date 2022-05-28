@@ -3,4 +3,4 @@
 
 #### Project Details
 * Design of an order summary
-* A project of FrontEnd Mentors
+* A project of Frontend Mentor
